@@ -12,7 +12,7 @@ require_once('function.php');
 <body>
 
 <?php
-  define("monsterCount", 4);
+  define("MONSTER_COUNT", 4);
   for ($i=0; $i < monsterCount ; $i++) { 
    drawMonster(rand(1,4), rand(100,400));
 }
